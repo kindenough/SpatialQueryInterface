@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -28,7 +29,9 @@ namespace SpatialQueryInterface.Controllers
             res.wyid = "";
             res.message = "";
             try 
-	        {	   
+	        {
+                string BufferDistance = System.Configuration.ConfigurationManager.AppSettings["BufferDistance"];
+                double dis = double.Parse(BufferDistance);
                 var paramlist = id.Split(',');
                 if (paramlist.Length < 2)
                 {   
@@ -39,7 +42,7 @@ namespace SpatialQueryInterface.Controllers
                 {
                     double x = double.Parse(paramlist[0]);
                     double y = double.Parse(paramlist[1]);
-                    double distance = paramlist.Length<3 ? 0 : double.Parse(paramlist[2]);
+                    double distance = paramlist.Length < 3 ? dis : double.Parse(paramlist[2]);
 
                     using (var ctx = new GEODBEntities1())
                     {

@@ -136,7 +136,7 @@
       <publishTime>08/05/2019 17:07:07</publishTime>
     </File>
     <File Include="bin/SpatialQueryInterface.dll">
-      <publishTime>08/07/2019 10:39:52</publishTime>
+      <publishTime>08/07/2019 15:29:42</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
       <publishTime>07/09/2013 11:04:48</publishTime>
@@ -475,7 +475,7 @@
       <publishTime>08/07/2019 10:00:12</publishTime>
     </File>
     <File Include="readme.txt">
-      <publishTime>08/07/2019 10:36:53</publishTime>
+      <publishTime>08/07/2019 11:27:41</publishTime>
     </File>
     <File Include="Scripts/jquery-1.8.2.js">
       <publishTime>08/05/2019 17:07:00</publishTime>
@@ -538,7 +538,7 @@
       <publishTime>08/05/2019 17:06:55</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/07/2019 10:23:39</publishTime>
+      <publishTime>08/07/2019 15:29:43</publishTime>
     </File>
   </ItemGroup>
 </Project>

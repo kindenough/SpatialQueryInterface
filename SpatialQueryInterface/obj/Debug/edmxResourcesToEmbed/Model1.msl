@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GEODBModelStoreContainer" CdmEntityContainer="GEODBEntities1">
+    <EntitySetMapping Name="DLDYPL">
+      <EntityTypeMapping TypeName="GEODBModel.DLDYPL">
+        <MappingFragment StoreEntitySet="DLDYPL">
+          <ScalarProperty Name="PQMC" ColumnName="PQMC" />
+          <ScalarProperty Name="DLWYID" ColumnName="DLWYID" />
+          <ScalarProperty Name="DLDYMC" ColumnName="DLDYMC" />
+          <ScalarProperty Name="DLDYZD" ColumnName="DLDYZD" />
+          <ScalarProperty Name="DLDYQD" ColumnName="DLDYQD" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="WYID" ColumnName="WYID" />
+          <ScalarProperty Name="OBJECTID" ColumnName="OBJECTID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

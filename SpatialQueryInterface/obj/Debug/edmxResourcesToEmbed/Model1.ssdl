@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GEODBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <!--生成过程中发现错误:
+警告 6005: 目标实体框架版本架构不支持数据类型“geometry”。已从模型中排除表“GEODB.dbo.DLDYPL”中的列“Shape”。若要使用数据类型“geometry”，请以实体框架架构版本 3.0 或更高版本为目标。-->
+  <EntityType Name="DLDYPL">
+    <Key>
+      <PropertyRef Name="OBJECTID" />
+    </Key>
+    <Property Name="OBJECTID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WYID" Type="nvarchar" MaxLength="20" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="70" />
+    <Property Name="DLDYQD" Type="nvarchar" MaxLength="30" />
+    <Property Name="DLDYZD" Type="nvarchar" MaxLength="30" />
+    <Property Name="DLDYMC" Type="nvarchar" MaxLength="70" />
+    <Property Name="DLWYID" Type="nvarchar" MaxLength="32" />
+    <Property Name="PQMC" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityContainer Name="GEODBModelStoreContainer">
+    <EntitySet Name="DLDYPL" EntityType="Self.DLDYPL" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

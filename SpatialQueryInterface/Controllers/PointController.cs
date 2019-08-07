@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -15,9 +16,13 @@ namespace SpatialQueryInterface.Controllers
     public class PointController : ApiController
     {
         // GET api/<controller>
-        public IEnumerable<string> Get()
+        //public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            //return new string[] { "value1", "value2" };
+            string logpath = System.Web.HttpContext.Current.Server.MapPath("~\\log\\logfile.log");
+            string newValue = File.ReadAllText(logpath);
+            return newValue;
         }
 
         // GET api/<controller>/5

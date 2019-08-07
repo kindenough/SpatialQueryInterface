@@ -2,4 +2,7 @@
 
 备注:
 1 使用的数据库是MSSQL2008r2 
-2 访问方式：http://localhost:6360/api/point/118.084504,24.438344,10
+2 访问方式：http://localhost:6360/api/point/118.084504,24.438344,10    （经度，纬度，缓冲区距离-不填写则默认10米）
+3 解决log4net独占日志文件
+4 解决跨域请求
+5 在线查看日志内容 http://localhost:6360/api/point

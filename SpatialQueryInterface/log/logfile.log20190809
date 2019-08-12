@@ -1,0 +1,36 @@
+2019-08-09 11:36:27,469 [7] INFO  log4net.AppLog [(null)] - 118.084504,24.438344=4
+2019-08-09 11:44:11,986 [7] ERROR log4net.AppLog [(null)] - 118.084504,24.438344，ORA-29902: error in executing ODCIIndexStart() routine
+ORA-20003: Geometry type "" is not a valid shape type.
+ORA-06512: at "SDE.ST_GEOM_UTIL", line 276
+ORA-06512: at "SDE.ST_POINT", line 21
+
+2019-08-09 11:48:32,756 [7] ERROR log4net.AppLog [(null)] - 118.084504,24.438344，ORA-00920: invalid relational operator
+
+2019-08-09 11:51:25,733 [5] INFO  log4net.AppLog [(null)] - 118.084504,24.438344=2482
+2019-08-09 11:53:13,265 [10] INFO  log4net.AppLog [(null)] - 118.084504,24.438344=2482
+2019-08-09 11:53:20,509 [8] INFO  log4net.AppLog [(null)] - 118.084504,24.438344=2482
+2019-08-09 11:54:27,619 [6] INFO  log4net.AppLog [(null)] - 118.084504,24.438344,0=1
+2019-08-09 11:54:37,110 [6] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,0=0
+2019-08-09 11:55:55,150 [10] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,0=0
+2019-08-09 11:56:02,434 [5] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,10=2482
+2019-08-09 11:56:11,126 [10] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,10=2482
+2019-08-09 11:56:13,689 [27] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,1=2482
+2019-08-09 11:56:18,964 [10] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,0.004=0
+2019-08-09 11:56:22,498 [8] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,0.04=0
+2019-08-09 11:56:26,581 [27] INFO  log4net.AppLog [(null)] - 118.084504,24.138344,0.4=2482
+2019-08-09 12:02:31,659 [16] INFO  log4net.AppLog [(null)] - 118.106043,24.499264=2482
+2019-08-09 12:02:51,272 [16] INFO  log4net.AppLog [(null)] - 118.106043,24.499264=1
+2019-08-09 12:03:02,165 [21] INFO  log4net.AppLog [(null)] - 118.106043,24.499264,1000=37
+2019-08-09 14:28:22,667 [67] INFO  log4net.AppLog [(null)] - 118.106043,24.499264,1000=37
+2019-08-09 14:28:43,523 [66] INFO  log4net.AppLog [(null)] - 118.106043,24.499264=1
+2019-08-09 14:29:58,742 [67] INFO  log4net.AppLog [(null)] - 118.106309,24.499506=1
+2019-08-09 14:55:31,222 [37] INFO  log4net.AppLog [(null)] - 118.106309,24.499506=1
+2019-08-09 14:56:09,268 [36] INFO  log4net.AppLog [(null)] - 118.106309,24.499506=1
+2019-08-09 14:56:51,283 [40] INFO  log4net.AppLog [(null)] - 118.105811,24.498757=1
+2019-08-09 14:57:57,258 [40] INFO  log4net.AppLog [(null)] - 118.105791,24.499105=1
+2019-08-09 14:58:09,291 [36] INFO  log4net.AppLog [(null)] - 118.105791,24.4991=1
+2019-08-09 14:58:50,614 [38] INFO  log4net.AppLog [(null)] - 118.105791,24.4995=1
+2019-08-09 16:01:31,860 [86] INFO  log4net.AppLog [(null)] - 118.084504,24.438344=1
+2019-08-09 17:34:41,855 [6] INFO  log4net.AppLog [(null)] - 118.084504,24.438344={"success":true,"message":"","infos":[{"name":"演武西路","wyid":"2327","dldymc":"演武西路_大学路_世贸大厦"}],"total":0}
+2019-08-09 17:34:41,855 [8] INFO  log4net.AppLog [(null)] - 118.084504,24.438344={"success":true,"message":"","infos":[{"name":"演武西路","wyid":"2327","dldymc":"演武西路_大学路_世贸大厦"}],"total":0}
+2019-08-09 17:34:49,127 [6] INFO  log4net.AppLog [(null)] - 118.084504,24.438344={"success":true,"message":"","infos":[{"name":"演武西路","wyid":"2327","dldymc":"演武西路_大学路_世贸大厦"}],"total":0}

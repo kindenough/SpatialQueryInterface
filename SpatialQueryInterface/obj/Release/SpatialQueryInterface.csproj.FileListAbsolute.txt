@@ -91,3 +91,4 @@ D:\hsx\10.接口服务\GPS所属道路接口\空间查询接口\SpatialQueryInte
 D:\hsx\10.接口服务\GPS所属道路接口\空间查询接口\SpatialQueryInterface\SpatialQueryInterface\bin\log4net.dll
 D:\hsx\10.接口服务\GPS所属道路接口\空间查询接口\SpatialQueryInterface\SpatialQueryInterface\bin\log4net.xml
 D:\hsx\10.接口服务\GPS所属道路接口\空间查询接口\SpatialQueryInterface\SpatialQueryInterface\obj\Release\SpatialQueryInterface.csprojResolveAssemblyReference.cache
+D:\hsx\10.接口服务\GPS所属道路接口\空间查询接口\SpatialQueryInterface\SpatialQueryInterface\bin\ESRI.ArcGIS.Client.dll

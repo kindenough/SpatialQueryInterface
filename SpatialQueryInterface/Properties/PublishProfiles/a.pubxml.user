@@ -72,6 +72,9 @@
     <File Include="bin/es/System.Spatial.resources.dll">
       <publishTime>08/05/2019 17:07:07</publishTime>
     </File>
+    <File Include="bin/ESRI.ArcGIS.Client.dll">
+      <publishTime>01/10/2012 18:29:32</publishTime>
+    </File>
     <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
       <publishTime>08/05/2019 17:07:08</publishTime>
     </File>
@@ -136,7 +139,7 @@
       <publishTime>08/05/2019 17:07:07</publishTime>
     </File>
     <File Include="bin/SpatialQueryInterface.dll">
-      <publishTime>08/07/2019 16:31:52</publishTime>
+      <publishTime>08/12/2019 16:34:14</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
       <publishTime>07/09/2013 11:04:48</publishTime>
@@ -475,7 +478,7 @@
       <publishTime>08/07/2019 10:00:12</publishTime>
     </File>
     <File Include="readme.txt">
-      <publishTime>08/07/2019 11:27:41</publishTime>
+      <publishTime>08/07/2019 18:02:05</publishTime>
     </File>
     <File Include="Scripts/jquery-1.8.2.js">
       <publishTime>08/05/2019 17:07:00</publishTime>
@@ -523,7 +526,7 @@
       <publishTime>08/07/2019 09:44:55</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/05/2019 17:06:55</publishTime>
+      <publishTime>08/12/2019 08:42:59</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/05/2019 17:06:55</publishTime>
@@ -538,7 +541,7 @@
       <publishTime>08/05/2019 17:06:55</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/07/2019 15:29:43</publishTime>
+      <publishTime>08/12/2019 11:26:09</publishTime>
     </File>
   </ItemGroup>
 </Project>
